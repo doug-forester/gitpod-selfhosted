@@ -5,6 +5,9 @@ orbs:
   # Declare a dependency on the welcome-orb
   welcome: circleci/welcome-orb@0.4.1
   gcp-cli: circleci/gcp-cli@2.2.0
+  azure-cli: circleci/azure-cli@1.2.0
+  aws-cli: circleci/aws-cli@2.0.3
+  node: circleci/node@4.5.1
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
